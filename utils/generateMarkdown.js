@@ -14,6 +14,9 @@ function generateMarkdown(data) {
   
   ${data.description}
   
+  ## License
+
+  ${data.license}
 
   ## Table of contents
 

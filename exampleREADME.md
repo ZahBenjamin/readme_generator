@@ -6,6 +6,9 @@
   
   b
   
+  ## License
+
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Table of contents
 
@@ -22,19 +25,19 @@
 
   ## Usage
 
-  e
+  d
 
   ## Contribution
 
-  f
+  e
 
   ## Tests
 
-  g
+  f
 
   ## Questions
 
-  Feel free to see my work at https://github.com/f
+  Feel free to see my work at https://github.com/g
 
   I am available by email at e
 
