@@ -38,10 +38,11 @@ const questions = [
   {
     type: 'list',
     message: 'Which license would you like to choose?',
+    name: 'license',
     choices: [
-      {name: 'MIT', value: 'mit'},
-      {name: 'OTHER1', value: 'other1'},
-      {name: 'OTHER2', value: 'other2'}
+      "MIT",
+      "OTHER1",
+      "OTHER2"
     ]
   },
   {
@@ -56,6 +57,7 @@ const questions = [
   }
 ];
 
+
 // Function to write README file
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, data, (err) => {
@@ -63,21 +65,40 @@ function writeToFile(fileName, data) {
   });
 }
 
+
+
 // Function to initialize app
-function init() {
-  inquirer.prompt(questions).then( (data) => {
-    const markdown = generateMarkdown(data);
-
-     writeToFile('exampleREADME.md', markdown);
+ function init() {
+   inquirer.prompt(questions).then( (data) => {
+   const markdown = generateMarkdown(data);
+   console.log(typeof data.title);
+   console.log(data);
+   writeToFile('exampleREADME.md', markdown);
   })
-}
+  };
 
-// const data = inquirer.prompt(questions).then();
-// const markdown = generateMarkdown(data);
 
-// writeToFile('exampleREADME.md', markdown);
+
 // Function call to initialize app
 init();
 
 // TODO: License/badge
-// TODO: 
+
+
+
+
+
+
+
+// notes 
+
+//   console.log(data.title);
+//   console.log(data.description);
+//   console.log(data.install);
+//   console.log(data.usage);
+//   console.log(data.contribution);
+//   console.log(data.instructions);
+//   console.log(data.license);
+//   console.log(data.github);
+//   console.log(data.email);
+=
