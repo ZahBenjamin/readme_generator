@@ -1,9 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-// function renderLicenseBadge(license) {}
-
-
-// TODO: Function to generate markdown for README
+// Function to generate markdown for README
 function generateMarkdown(data) {
   let wowMarkdown =  
   `# ${data.title}
@@ -21,11 +16,11 @@ function generateMarkdown(data) {
   ## Table of contents
 
 
-  1.[Install](#installation)
-  2.[Usage](#usage)
-  3.[Contribution](#contribution)
-  4.[Tests](#tests)
-  5.[Questions](#questions)
+  1. [Install](#installation)
+  2. [Usage](#usage)
+  3. [Contribution](#contribution)
+  4. [Tests](#tests)
+  5. [Questions](#questions)
 
   ## Installation
 
@@ -55,4 +50,5 @@ function generateMarkdown(data) {
 return wowMarkdown;
 }
 
+// Command so it can be called onto index.js
 module.exports = generateMarkdown;
