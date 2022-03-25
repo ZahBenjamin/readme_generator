@@ -1,10 +1,10 @@
-# never
+# Note Taker | Heroku Practice
 
   ## Description 
   
   *Everything you need to know:* 
   
-  gonna
+  This is a sample note taker app that is being deployed to heroku at https://zahbenjamin-test-app.herokuapp.com/
   
   ## License
 
@@ -21,24 +21,24 @@
 
   ## Installation
 
-  give
+  npm init -y, npm install
 
   ## Usage
 
-  you
+  Unavailable
 
   ## Contribution
 
-  up
+  See contact information
 
   ## Tests
 
-  never
+  Unavailable
 
   ## Questions
 
-  Feel free to see my work at https://github.com/gonna
+  Feel free to see my work at https://github.com/ZahBenjamin
 
-  I am available by email at let you down
+  I am available by email at bz@benzah.com
 
 
