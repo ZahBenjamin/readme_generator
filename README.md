@@ -5,7 +5,7 @@
   *Everything you need to know:* 
   
   This NodeJS based app takes console log input and generates a README Template. Fully made with NodeJS, modules called are Inquirer and FS.
-  [Video link](https://youtu.be/X7z-81nhIpo)
+  [Video link](https://youtu.be/k_PD4Msrksk)
 
  ![Example Gif](/media/wowMarkdown!.gif)  
 

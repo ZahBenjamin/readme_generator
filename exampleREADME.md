@@ -1,10 +1,10 @@
-# Example title
+# Placeholder
 
   ## Description 
   
   *Everything you need to know:* 
   
-  Here is the description!!
+  This is teh description
   
   ## License
 
@@ -21,19 +21,19 @@
 
   ## Installation
 
-  To install, run npm i
+  Install w npm i
 
   ## Usage
 
-  Usage usage
+  To use, try installing and running npm i
 
   ## Contribution
 
-  To contribute, fork and make a PR
+  Contribute by forking the GH and making a PR
 
   ## Tests
 
-  Testing testing testing
+  test test test
 
   ## Questions
 
