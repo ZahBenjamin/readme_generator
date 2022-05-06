@@ -1,10 +1,10 @@
-# Note Taker | Heroku Practice
+# Example title
 
   ## Description 
   
   *Everything you need to know:* 
   
-  This is a sample note taker app that is being deployed to heroku at https://zahbenjamin-test-app.herokuapp.com/
+  Here is the description!!
   
   ## License
 
@@ -21,19 +21,19 @@
 
   ## Installation
 
-  npm init -y, npm install
+  To install, run npm i
 
   ## Usage
 
-  Unavailable
+  Usage usage
 
   ## Contribution
 
-  See contact information
+  To contribute, fork and make a PR
 
   ## Tests
 
-  Unavailable
+  Testing testing testing
 
   ## Questions
 
